@@ -1,0 +1,103 @@
+.columns{
+  height: 100vh;
+  background: red;
+}
+.column-left{
+  background: rgba(34, 37, 43, 0.8);
+  color: #BBB7B7;
+  width: 25vw;
+  height: 100vh;
+}
+.column-right{
+  background: #202940;
+  color: #BBB7B7;
+  width: 75vw;
+  height: 100vh;
+}
+.left-li{
+  height: 15vh
+}
+
+.list-group-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  rgba(34, 37, 43, 0);
+  margin: 0;
+  border: none;
+  color: #BBB7B7
+}
+a:hover{
+  color: white;
+  text-decoration: none
+}
+.list-group{
+  transform: translateY(76px);
+  font-size: 17px;
+}
+.title{
+  transform: translateY(45px);
+    font-size: 28px;
+    color: #cccccc;
+}
+
+.right-row{
+    display: flex;
+    background: #202940;
+    transform: translateY(60px);
+    justify-content: center;
+    padding: 51px 50px;
+}
+.card-box{
+  background: #202940;
+  width: 80%;
+  height: 30vh;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.card-title{
+  margin: 17px;
+}
+.card-title-2{
+  color: #419E5B;
+}
+
+.update-ul{
+
+}
+.update-li{
+  list-style: none;
+    text-align: left;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.object-top{
+  background: #419E5B;
+  color: #BBB7B7;
+  width: 70%;
+  height: 6vh;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  transform: translateY(-19px);
+  z-index: 1;
+  position: absolute;
+}
+
+.table-section{
+  width: 80%;
+    transform: translateY(13vh);
+    color: white;
+}
+td, th{
+  color: #cccccc
+}
+.ot-2{
+  background: #FD8F02;
+}
+
+.title-dashboard{
+  transform: translate(20px, 40px);
+  font-size: 20px;
+}
